@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript-array</title>
+</head>
+<body>
+    <script>
+        nomes= new Array;//criando um array
+        
+        //populando um array com elementos
+        nomes=["João","Maria","José","Joana", "AFGDSGFD"];
+
+        //exibindo os elementos
+        document.write(nomes+ "<hr>");
+
+        //exibindo somente um elçemento array
+        document.write(nomes[1]+"<hr>");
+
+        //modificando um elemento array
+        nomes[2]="Diego";
+
+        //exibindo os elementos
+        document.write(nomes+ "<hr>");
+
+        //exibindo o comprimento do array
+        document.write(nomes.length+"<hr>");
+
+        //usando for para mostrar todos os elementos de acordo com a posição
+        for(x=0; x<nomes.length;x++){
+            document.write("<font color='#fe98f3'>"+nomes[x]+"</font>"+"<br>");
+        }
+
+    </script>
+</body>
+</html>
